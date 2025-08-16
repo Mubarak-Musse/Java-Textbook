@@ -13,7 +13,7 @@ public class Listing1 {
 
       for(int X : A){
 
-        System.out.print(x+",");
+        System.out.print( X +",");
 
       }
 

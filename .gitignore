@@ -1,0 +1,5 @@
+
+# git file to ignore 
+.DS_Store 
+*./log
+
