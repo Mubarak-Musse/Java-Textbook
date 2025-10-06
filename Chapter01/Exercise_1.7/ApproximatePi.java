@@ -11,10 +11,11 @@ public class ApproximatePi{
 
 	public static void main(String[] args){
 
-		Double Pi = 1 - (1.0 / 3 + 1.0 / 5 - 1.0 / 7 + 1.0 / 9 - 1.0 / 11 + 1.0 / 13);
-		double PI_2 = 1- ();
+		double Pi_1 = (1.0 - (1.0 / 3 + 1.0 / 5 - 1.0 / 7 + 1.0 / 9 - 1.0 / 11 ));
+		double Pi_2 = (1.0 - (1.0 / 3 + 1.0 / 5 - 1.0 / 7 + 1.0 / 9 - 1.0 / 11 + 1.0 /13 ));
 
-		System.out.println("Pi = " + 4 * Pi);
+		System.out.println("Pi = " + 4 * Pi_1);
+        System.out.println("Pi_2 = " + 4 * Pi_2);
 	}
 }
 
