@@ -12,7 +12,7 @@
 
 import java.util.Scanner; // Scanner is in the java.util package 
 
-public class SumTheDigitInAnInterger { 
+public class SumTheDigitInAnInteger { 
 
 	public static void main (String[] args ){
 
@@ -20,4 +20,20 @@ public class SumTheDigitInAnInterger {
 		Scanner input = new Scanner(System.in);
 
 
-		System:
+		System.out.println("Enter an integer between 0 and 1000: ");
+        int number = input.nextInt();
+        
+        int lastDigit = number % 10 ;
+        int remainingNumber = number / 10;
+        int secondLastDigit = remainingNumber % 10;
+        int thirdLastDigit = remainingNumber % 10;
+        int sum = lastDigit + secondLastDigit + thirdLastDigit;
+        
+
+        // Dispaly output
+        
+        System.out.println("The Sum of all digit in " +
+                number + " is " + sum );
+
+    }
+}
