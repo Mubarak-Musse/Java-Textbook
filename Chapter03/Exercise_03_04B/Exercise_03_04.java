@@ -1,0 +1,58 @@
+
+
+
+/*Exercise (3.4) --> Random Moth(Using else if statement)
+ * Write a program that randomly generate an interger between 1 & 12
+ * and Display the English moth that crosbonse to English month 
+ * **/
+
+public class Exercise_03_04 {
+
+	public static void main (String []args) {
+
+		int month = (int)(Math.random() * 12) + 1 ;
+		
+		//Check moth
+		if (month == 1) { 
+			System.out.println(month +"= January!");
+		}
+		else if (month == 2 ) {
+			System.out.println (month +"= February");
+		}
+		else if (month == 3 ) {
+			System.out.println (month +"=  March ");
+		}
+		else if (month == 4 ) { 
+			System.out.println (month +"=  April");
+		}
+		else if (month == 5 ) {
+			System.out.println(month +" =  May");
+		}
+		else if (month == 6 ){ 
+			System.out.println(month +"=  June ");
+		}
+		else if (month == 7){
+			System.out.println(month +"=  July");
+		}
+		else if (month == 8 ){
+			System.out.println(month +"= August");
+		}
+		else if (month == 9 ) {
+			System.out.println (month +"= September");
+		}
+		else if (month == 10){
+			System.out.println(month +"= October!");
+		}
+		else if (month == 11 ){
+			System.out.println(month +"= November!");
+		}
+		else if (month == 12) {
+			System.out.println(month +"=  December! ");
+		}
+		else {
+			System.out.println("invalid ");
+		}
+	}
+}
+
+
